@@ -14,7 +14,7 @@ npm install
 Create `backend/.env`:
 
 ```env
-PORT=5000
+PORT=4000
 MONGO_URI=mongodb://127.0.0.1:27017/hospitalAppointmentDB
 JWT_SECRET=hospital_machine_test_secret
 ```
@@ -38,7 +38,7 @@ npm install
 Create `frontend/.env`:
 
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=http://localhost:4000/api
 ```
 
 Then:
